@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input {
+  margin-left: 3px;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.trybewarts-header-logo {
+  width: 25%;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  margin: 2%;
+}
+
+.trybewarts-login {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+#login-btn {
+  padding-left: 3px;
+}
+
+#form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3%;
+  margin-top: 1%;
+  width: 90%;
+}
+
+#title-form {
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 65%;
+}
+
+#trybewarts-forms-logo {
+  width: 25%;
+  min-width: 300px;
+}
+
+#full-name , #enderecos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+#opcoes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#familia {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 50%;
+}
+
+#conteudo {
+  width: 50%;
+}
+
+#conteudo , #avaliacao {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#container-avaliacao , #conteudo-tech {
+  text-align: center;
+}
+
+#container-textarea {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.footer {
+  align-items: center;
+  background-color: rgb(167, 167, 167);
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
